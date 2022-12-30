@@ -21,13 +21,11 @@ let guestCount = 0;
 function winScoreBoard() {
   if (homeCount > guestCount) {
     homeName.style.color = "lime";
-    console.log("home is winning!");
   } else {
     homeName.style.color = "#eeeeee";
   }
   if (homeCount < guestCount) {
     guestName.style.color = "lime";
-    console.log("guest is winning!");
   } else {
     guestName.style.color = "#eeeeee";
   }
@@ -83,7 +81,6 @@ resetBtn.addEventListener("click", (e) => {
   homeName.style.color = "#eeeeee";
   guestNumb.textContent = guestCount;
   guestName.style.color = "#eeeeee";
-  console.log("GAME RESET");
 });
 
 pointScored();
