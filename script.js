@@ -1,3 +1,4 @@
+//Variables
 let homeNumb = document.getElementById("homeNumb");
 let guestNumb = document.getElementById("guestNumb");
 
@@ -16,6 +17,7 @@ let resetBtn = document.getElementById("reset");
 let homeCount = 0;
 let guestCount = 0;
 
+//Name color change
 function winScoreBoard() {
   if (homeCount > guestCount) {
     homeName.style.color = "lime";
@@ -31,6 +33,7 @@ function winScoreBoard() {
   }
 }
 
+//Points scored
 function pointScored() {
   //Home scoreboard
   plus1home.addEventListener("click", (e) => {
