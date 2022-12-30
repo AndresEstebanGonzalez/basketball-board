@@ -1,3 +1,4 @@
+//Variables
 let homeNumb = document.getElementById("homeNumb");
 let guestNumb = document.getElementById("guestNumb");
 
@@ -16,21 +17,21 @@ let resetBtn = document.getElementById("reset");
 let homeCount = 0;
 let guestCount = 0;
 
+//Name color change
 function winScoreBoard() {
   if (homeCount > guestCount) {
     homeName.style.color = "lime";
-    console.log("home is winning!");
   } else {
     homeName.style.color = "#eeeeee";
   }
   if (homeCount < guestCount) {
     guestName.style.color = "lime";
-    console.log("guest is winning!");
   } else {
     guestName.style.color = "#eeeeee";
   }
 }
 
+//Points scored
 function pointScored() {
   //Home scoreboard
   plus1home.addEventListener("click", (e) => {
@@ -80,7 +81,6 @@ resetBtn.addEventListener("click", (e) => {
   homeName.style.color = "#eeeeee";
   guestNumb.textContent = guestCount;
   guestName.style.color = "#eeeeee";
-  console.log("GAME RESET");
 });
 
 pointScored();
