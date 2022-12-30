@@ -1,0 +1,114 @@
+@import url("https://fonts.cdnfonts.com/css/cursed-timer-ulil");
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+}
+
+.main {
+  height: 38.5rem;
+  width: 57.5rem;
+  background-color: #1b244a;
+}
+.main .center {
+  padding: 6.8rem 8.2rem 0 8.2rem;
+  display: flex;
+  flex-flow: wrap;
+}
+.main .center .middle-sector {
+  width: 100%;
+}
+.main .center .middle-sector .middle-top {
+  height: 3.6rem;
+  display: flex;
+  justify-content: space-around;
+}
+.main .center .middle-sector .middle-top h1 {
+  width: 14.8rem;
+  height: 3.6rem;
+  margin: 0;
+  top: 68px;
+  left: 85px;
+  font-family: Verdana;
+  font-size: 40px;
+  font-weight: 700;
+  color: #eeeeee;
+}
+.main .center .middle-sector .middle-bottom {
+  display: flex;
+  justify-content: space-around;
+  padding: 2.6rem 0 0 0;
+}
+.main .center .middle-sector .middle-bottom .box {
+  width: 15.5rem;
+  height: 12rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  border-radius: 5px;
+}
+.main .center .middle-sector .middle-bottom .box .number {
+  width: 11.7rem;
+  height: 12rem;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-family: Cursed Timer ULiL;
+  color: #f94f6d;
+  font-size: 9rem;
+  font-weight: 400;
+}
+.main .center .bottom-sector {
+  width: 100%;
+  height: 4.5rem;
+  margin-top: 2.6rem;
+  display: flex;
+  justify-content: space-around;
+}
+.main .center .bottom-sector .left-box {
+  width: 15.5rem;
+  height: 4.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.main .center .bottom-sector .right-box {
+  width: 15.5rem;
+  height: 4.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.main .center .bottom-sector .plus {
+  width: 4.5rem;
+  height: 4.5rem;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.2rem solid #9aabd8;
+  border-radius: 0.5rem;
+  font-family: Cursed Timer ULiL;
+  font-size: 1.8rem;
+  color: #9aabd8;
+  background-color: #1b244a;
+}
+.main .center .bottom-btn {
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .center .bottom-btn .reset {
+  display: flex;
+  align-items: flex-end;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  background-color: #f94f6d;
+  font-family: Cursed Timer ULiL;
+  font-size: 1.8rem;
+  color: #eeeeee;
+}/*# sourceMappingURL=style.css.map */
